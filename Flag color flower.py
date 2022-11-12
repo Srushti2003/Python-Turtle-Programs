@@ -1,0 +1,73 @@
+import turtle
+t = turtle.Turtle()
+turtle.Screen().bgcolor("black")
+t.hideturtle()
+list = ['orange','white','light green']
+t.width(3)
+t.speed(100)
+for i in range(15):
+    for j in list:
+        t.pencolor(j)
+        t.forward(200)
+        t.right(90)
+        t.forward(200)
+        t.right(90)
+        t.forward(200)
+        t.right(90)
+        t.forward(200)
+        t.penup()
+        t.right(100)
+        t.pendown()
+for i in range(15):
+    for j in list:
+        t.pencolor(j)
+        t.forward(150)
+        t.right(90)
+        t.forward(150)
+        t.right(90)
+        t.forward(150)
+        t.right(90)
+        t.forward(150)
+        t.penup()
+        t.right(100)
+        t.pendown()
+for i in range(15):
+    for j in list:
+        t.pencolor(j)
+        t.forward(100)
+        t.right(90)
+        t.forward(100)
+        t.right(90)
+        t.forward(100)
+        t.right(90)
+        t.forward(100)
+        t.penup()
+        t.right(100)
+        t.pendown()
+for i in range(15):
+    for j in list:
+        t.pencolor(j)
+        t.forward(80)
+        t.right(90)
+        t.forward(80)
+        t.right(90)
+        t.forward(80)
+        t.right(90)
+        t.forward(80)
+        t.penup()
+        t.right(100)
+        t.pendown()
+list = ["blue"]
+for i in range(40):
+    for j in list:
+        t.pencolor(j)
+        t.forward(40)
+        t.right(90)
+        t.forward(40)
+        t.right(90)
+        t.forward(40)
+        t.right(90)
+        t.forward(40)
+        t.penup()
+        t.right(100)
+        t.pendown()
